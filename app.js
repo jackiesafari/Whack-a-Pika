@@ -1,5 +1,5 @@
  const squares = document.querySelectorAll('.square')
- const mole = document.querySelector('.mole')
+ const pika = document.querySelector('.pika')
  const timeLeft = document.querySelector('#time-left')
  const score = document.querySelector('#score')
 
@@ -10,11 +10,11 @@
 
  function randomSquare() {
   squares.forEach(square => {
-    square.classList.remove('mole')
+    square.classList.remove('pika')
   })
 
   let randomSquare = squares[Math.floor(Math.random()*9)]
-  randomSquare.classList.add('mole')
+  randomSquare.classList.add('pika')
 
   hitPosition = randomSquare.id
  }
@@ -29,11 +29,11 @@
   });
  });
 
- function moveMole() {
+ function movePika() {
   timerId = setInterval(randomSquare, 1000)
  }
 
- moveMole()
+ movePika()
 
  function countDown() {
   currentTime--
