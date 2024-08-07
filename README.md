@@ -1,2 +1,2 @@
-# whack-a-mole
+# whack-a-Pika
 My creation of a whack-a-mole game
