@@ -1,2 +1,2 @@
 # Whack-a-Pika
-My creation of a whack-a-mole game
+My creation of a whack-a-mole game showcasing the Pika! 
